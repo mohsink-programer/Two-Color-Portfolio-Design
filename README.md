@@ -22,5 +22,9 @@ To customize the portfolio:
 Contributions are welcome! If you have suggestions or improvements, feel free to create a pull request or open an issue.
 ## Contact
 For any questions or feedback, please contact me at mohsinameen331@gmail.com
+
 Happy coding!
-Author: Mohsin Khan GitHub: mohsink-programer
+
+
+**Author:** Mohsin Khan
+**GitHub:** mohsink-programer
