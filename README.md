@@ -7,20 +7,20 @@ A clean and minimalistic portfolio website template created using HTML5 and CSS3
 ## Technologies Used 
 - **HTML5**: For structuring the content and providing semantic markup. 
 - **CSS3**: For styling the content, including the black and blueviolet color theme.
-Usage
+## Usage
 •	Home Section: Introduce yourself.
 •	Projects Section: Showcase your work with project titles, descriptions, and links to repositories.
 •	Resume Section: About Education & Experience.
 •	About Section: Highlight your technical skills and proficiency levels.
 •	Contact Section: Provide your contact information.
-Customization
+## Customization
 To customize the portfolio:
 •	Colors: Modify the CSS variables in the CSS file to change the color scheme.
 •	Content: Edit the HTML files to add your personal content, including text, images, and links.
 •	Fonts: Change the fonts by updating the Google Fonts link in the index.html file.
-Contributing
+## Contributing
 Contributions are welcome! If you have suggestions or improvements, feel free to create a pull request or open an issue.
-Contact
+## Contact
 For any questions or feedback, please contact me at mohsinameen331@gmail.com
 Happy coding!
 Author: Mohsin Khan GitHub: mohsink-programer
