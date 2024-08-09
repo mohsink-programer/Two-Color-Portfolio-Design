@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+}
+
+body {
+    background: url(../Img/male.png) no-repeat;
+    background-position: right;
+    background-color: black;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+}
+
+.navbar ul {
+    display: flex;
+    margin: 0 0 0 80px;
+}
+
+.navbar ul li {
+    list-style: none;
+}
+
+.navbar ul li a {
+    margin: 20px;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.navbar ul li a:hover {
+    transition: 0.5s ease-in;
+    background-color: blueviolet;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.content {
+    position: absolute;
+    top: 33%;
+    left: 7%;
+}
+
+.content .text {
+    font-size: 1.9rem;
+    color: white;
+}
+
+.content .name {
+    font-size: 5.8rem;
+    color: white;
+}
+
+.content .job {
+    display: flex;
+    font-size: 2.5rem;
+    color: white;
+}
+
+.content .job .typing-text {
+    color: blueviolet;
+    overflow: hidden;
+    border-right: 4px solid blueviolet;
+    white-space: nowrap;
+    margin: 0 0 0 10px;
+    animation: typing 5s steps(18) infinite;
+}
+
+@keyframes typing {
+    0% {
+        width: 0ch;
+    }
+
+    50% {
+        width: 18ch;
+    }
+
+    100% {
+        width: 0ch;
+    }
+}
+
+
+.git img {
+    margin: 10px;
+    background-color: white;
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+}
+
+.git img:hover{
+    opacity: 0.6;
+}
+.btn {
+    background-color: blueviolet;
+    color: white;
+    padding: 10px;
+    margin: 10px 0 0 0;
+    font-size: 1.3rem;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.btn:hover{
+    opacity: 0.6;
+    cursor: pointer;
+}
