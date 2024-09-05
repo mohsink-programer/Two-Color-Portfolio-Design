@@ -55,14 +55,16 @@ form {
     gap: 2rem;
 }
 
-.items-center {
-    align-items: center;
-}
 
 .flex-col {
+    font-size: 1.3rem;
     color: white;
     font-weight: bold;
     flex-direction: column;
+}
+
+label{
+    margin: 0 0 10px 0;
 }
 
 .flex {
@@ -73,13 +75,14 @@ form {
     color: white;
     text-align: center;
     font-size: 1.9rem;
-    margin: 50px 0 50px 0;
+    margin: 50px 0 30px 0;
 }
 
 input {
     padding: 10px;
     font-size: 1.3rem;
 }
+
 
 input:hover {
     border: 2px solid blueviolet;
@@ -101,4 +104,153 @@ textarea:hover {
     font-weight: bold;
     color: white;
     border-radius: 25px;
+}
+
+/* Add media queries for responsiveness */
+
+/* Mobile devices (max-width: 480px) */
+@media (max-width: 480px) {
+    .navbar {
+        height: 40px;
+        text-align: center;
+    }
+
+    .navbar ul {
+        margin: 0 0 0 -25px;
+    }
+
+    .navbar ul li a {
+        margin: 5px;
+        padding: 3px;
+        font-size: 0.8rem;
+    }
+
+    .gap-8 {
+        gap: 2rem;
+    }
+    
+    
+    .flex-col {
+        font-size: 1rem;
+        color: white;
+        font-weight: bold;
+        flex-direction: column;
+    }
+    
+    label{
+        margin: 0 0 10px 50px;
+    }
+    
+    .flex {
+        display: flex;
+    }
+    
+    .contact>h1 {
+        color: white;
+        text-align: center;
+        font-size: 1.6rem;
+        margin: 50px 0 30px 0;
+    }
+    
+    input, textarea {
+        text-align: center;
+        margin: auto;
+        width: 300px;
+        padding: 5px;
+        font-size: 1rem;
+    }
+    
+    textarea:hover {
+        border: 2px solid blueviolet;
+    }
+    
+    input:hover {
+        border: 2px solid blueviolet;
+    }
+    
+    
+    .btn {
+        width: 300px;
+        text-align: center;
+        margin: auto;
+        background-color: blueviolet;
+        padding: 5px;
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: white;
+        border-radius: 25px;
+    }
+}
+
+/* Tablets (min-width: 481px and max-width: 768px) */
+@media (min-width: 481px) and (max-width: 768px) {
+    .navbar {
+        height: 60px;
+    }
+
+    .navbar ul {
+        margin: 0 0 0 40px;
+    }
+
+    .navbar ul li a {
+        margin: 10px;
+        padding: 5px;
+        font-size: 1.3rem;
+    }
+
+    .gap-8 {
+        gap: 2rem;
+    }
+    
+    
+    .flex-col {
+        font-size: 1.3rem;
+        color: white;
+        font-weight: bold;
+        flex-direction: column;
+    }
+    
+    label{
+        margin: 0 0 10px 90px;
+    }
+    
+    .flex {
+        display: flex;
+    }
+    
+    .contact>h1 {
+        color: white;
+        text-align: center;
+        font-size: 1.9rem;
+        margin: 50px 0 30px 0;
+    }
+    
+    input, textarea {
+        text-align: center;
+        margin: auto;
+        width: 500px;
+        padding: 5px;
+        font-size: 1rem;
+    }
+    
+    textarea:hover {
+        border: 2px solid blueviolet;
+    }
+    
+    input:hover {
+        border: 2px solid blueviolet;
+    }
+    
+    
+    .btn {
+        width: 500px;
+        text-align: center;
+        margin: auto;
+        background-color: blueviolet;
+        padding: 5px;
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: white;
+        border-radius: 25px;
+    }
 }

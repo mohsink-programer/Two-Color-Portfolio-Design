@@ -120,6 +120,9 @@ body {
 .skill-per.css{
     width: 60%;
 }
+.skill-per.js{
+    width: 50%;
+}
 .skill-per.photoshop{
     width: 90%;
 }
@@ -163,3 +166,103 @@ body {
     height: 10px;
     z-index: -1;
 }
+
+/* For screens smaller than 768px (tablets and mobile devices) */
+@media (min-width: 481px) and (max-width: 768px) {
+    .navbar {
+        height: 60px;
+    }
+
+    .navbar ul {
+        margin: 0 0 0 40px;
+    }
+
+    .navbar ul li a {
+        margin: 10px;
+        padding: 5px;
+        font-size: 1.3rem;
+    }
+    .h1 {
+      font-size: 1.5rem;
+    }
+    .About p {
+      margin: 0 100px 0 100px;
+      font-size: 1.2rem;
+    }
+    .Skills .h11{
+        font-size: 1.4rem;
+    }
+    .Skills {
+      margin: 30px 100px 0 100px;
+    }
+    .Skills ul li {
+      font-size: 1.2rem;
+      margin: 10px 15px 0 20px;
+    }
+    .container {
+      max-width: 300px;
+      margin: 0 10px;
+      padding: 10px 15px;
+    }
+    .skill-box {
+      margin: 20px;
+    }
+    .skill-bar {
+      height: 6px;
+    }
+    .tooltip {
+      font-size: 10px;
+      padding: 1px 4px;
+    }
+  }
+  
+  /* For screens smaller than 480px (mobile devices) */
+  @media only screen and (max-width: 480px) {
+    .navbar {
+        height: 40px;
+        text-align: center;
+    }
+
+    .navbar ul {
+        margin: 0 0 0 -25px;
+    }
+
+    .navbar ul li a {
+        margin: 5px;
+        padding: 3px;
+        font-size: 0.8rem;
+    }
+    .h1 {
+      font-size: 1.4rem;
+    }
+    .About p {
+      margin: 0 50px 0 50px;
+      font-size: 1rem;
+    }
+
+    .Skills .h11{
+        font-size: 1.4rem;
+    }
+    .Skills {
+      margin: 20px 50px -20px 50px;
+    }
+    .Skills ul li {
+      font-size: 1rem;
+      margin: 10px 10px 0 15px;
+    }
+    .container {
+      max-width: 250px;
+      margin: 0 5px;
+      padding: 10px 10px;
+    }
+    .skill-box {
+      margin: 15px;
+    }
+    .skill-bar {
+      height: 4px;
+    }
+    .tooltip {
+      font-size: 9px;
+      padding: 1px 3px;
+    }
+  }
