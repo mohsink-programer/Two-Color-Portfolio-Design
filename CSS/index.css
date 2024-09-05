@@ -112,15 +112,18 @@ body {
     opacity: 0.6;
 }
 
-.btn a {
-    text-decoration: none;
+.btn{
     background-color: blueviolet;
-    color: white;
     padding: 10px;
     margin: 10px 0 0 0;
-    font-size: 1.3rem;
     font-weight: bold;
     border-radius: 10px;
+    font-size: 1.3rem;
+}
+
+.btn a{
+    color: white;
+    text-decoration: none;
 }
 
 .btn:hover {
